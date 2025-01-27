@@ -1,0 +1,90 @@
+body {
+	/* background-color: #2ABFCD; */
+	/* background-color: #00BDC7; -- Macbook?! */
+	background-color: #45B9C5;
+	color: white;
+	text-align: center;
+	font: futura, arial;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0 0;
+	margin: 0 0;
+}
+
+body.night {
+	background-color: #1b1464;
+}
+
+body.howling {
+	background-color: #000028;
+}
+
+#container {
+    min-height:100%;
+}
+
+#container a {
+    color: white;
+    text-decoration: none;
+}
+#top_div {
+    height: 33%;
+    padding: 15px;
+    background-color:#45B9C5;
+	margin: 0 0;
+}
+
+#middle_div {
+    height: 33%;
+    padding: 15px;
+    background-color:#1b1464;
+	margin: 0 0;
+}
+
+#bottom_div {
+    height:33%;
+    padding: 15px;
+    background-color:#000028;
+	margin: 0 0;
+}
+	
+h1 {
+	padding: 0 0;
+	}
+
+a {
+	color: #E9DF76;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+	
+.reverse {
+	/* color: #2ABFCD; */
+	color: #45B9C5;
+	background-color: white;
+	font-size: 1.1em;
+	padding: 5px 5px;
+}
+
+.yellow {
+	color: #E9DF76;
+	font-weight: bold;
+}
+
+body.night .yellow  {
+	color: #f0c420;
+	font-weight: bold;
+}
+
+body.howling .yellow  {
+	color: #f0c420;
+	font-weight: bold;
+}
+
+.fb-like {
+	text-align: center;
+}
+
