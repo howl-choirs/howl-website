@@ -19,6 +19,10 @@ body.howling {
 	background-color: #000028;
 }
 
+body.lunch {
+	background-color: #3f7994;
+}
+
 #container {
     min-height:100%;
 }
