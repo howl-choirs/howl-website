@@ -24,37 +24,45 @@ body.lunch {
 }
 
 #container {
-    min-height:100%;
+	min-height: 100%;
 }
 
 #container a {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
+
 #top_div {
-    height: 33%;
-    padding: 15px;
-    background-color:#45B9C5;
+	height: 33%;
+	padding: 15px;
+	background-color: #45B9C5;
+	margin: 0 0;
+}
+
+#mid_top_div {
+	height: 33%;
+	padding: 15px;
+	background-color: #3f7994;
 	margin: 0 0;
 }
 
 #middle_div {
-    height: 33%;
-    padding: 15px;
-    background-color:#1b1464;
+	height: 33%;
+	padding: 15px;
+	background-color: #1b1464;
 	margin: 0 0;
 }
 
 #bottom_div {
-    height:33%;
-    padding: 15px;
-    background-color:#000028;
+	height: 33%;
+	padding: 15px;
+	background-color: #000028;
 	margin: 0 0;
 }
-	
+
 h1 {
 	padding: 0 0;
-	}
+}
 
 a {
 	color: #E9DF76;
@@ -64,7 +72,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-	
+
 .reverse {
 	/* color: #2ABFCD; */
 	color: #45B9C5;
@@ -78,17 +86,37 @@ img {
 	font-weight: bold;
 }
 
-body.night .yellow  {
+body a {
+	color: #E9DF76;
+}
+
+body.night .yellow {
 	color: #f0c420;
 	font-weight: bold;
 }
 
-body.howling .yellow  {
+body.night a {
+	color: #f0c420;
+}
+
+body.howling .yellow {
 	color: #f0c420;
 	font-weight: bold;
+}
+
+body.howling a {
+	color: #f0c420;
+}
+
+body.lunch .yellow {
+	color: #fabc37;
+	font-weight: bold;
+}
+
+body.lunch a {
+	color: #fabc37;
 }
 
 .fb-like {
 	text-align: center;
 }
-
